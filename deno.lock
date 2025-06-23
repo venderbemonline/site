@@ -27,6 +27,7 @@
     "npm:cssnano@6.0.3": "6.0.3_postcss@8.4.35",
     "npm:esbuild-wasm@0.23.1": "0.23.1",
     "npm:esbuild@0.23.1": "0.23.1",
+    "npm:lucide-preact@*": "0.522.0_preact@10.26.9",
     "npm:postcss@8.4.35": "8.4.35",
     "npm:preact-render-to-string@^6.5.11": "6.5.13_preact@10.26.9",
     "npm:preact@^10.26.6": "10.26.9",
@@ -751,6 +752,12 @@
     },
     "lru-cache@10.4.3": {
       "integrity": "sha512-JNAzZcXrCt42VGLuYz0zfAzDfAvJWW6AfYlDBQyDV5DClI2m5sAmK+OIO7s59XfsRsWHp02jAJrRadPRGTt6SQ=="
+    },
+    "lucide-preact@0.522.0_preact@10.26.9": {
+      "integrity": "sha512-q1r0ZsaAAC3UjE3TPgS8MwTWANOEVCDB0I10cTsID3iHociKzQkmRRv3ucHBbj/59Te3LfAT40G90Kkvvykh8Q==",
+      "dependencies": [
+        "preact"
+      ]
     },
     "mdn-data@2.0.28": {
       "integrity": "sha512-aylIc7Z9y4yzHYAJNuESG3hfhC+0Ibp/MAMiaOZgNv4pmEdFyfZhhhny4MNiAfWdBQ1RQ2mfDWmM1x8SvGyp8g=="
